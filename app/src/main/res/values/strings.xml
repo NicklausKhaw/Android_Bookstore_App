@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SS Bookstore</string>
+    <string name="book1">Book1</string>
+    <string name="book2">Book2</string>
+    <string name="book3">Book3</string>
+    <string name="book4">Book4</string>
+    <string name="book5">Book5</string>
+    <string name="book6">Book6</string>
+    <string name="book7">Book7</string>
+    <string name="book8">Book8</string>
+    <string name="author1">Nicklaus</string>
+    <string name="author2">Khaw</string>
+    <string name="date">1/1/2021</string>
+    <string name="description">askjdsaldlsadlsbfndbc</string>
+</resources>
