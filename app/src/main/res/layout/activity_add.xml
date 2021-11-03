@@ -41,7 +41,19 @@
         android:hint="Enter Book Name"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/book_image_view" />
+        app:layout_constraintTop_toBottomOf="@id/book_image_view"
+        android:maxLines="1"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/invalidNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Invalid Name Entered"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_error"
+        app:flow_verticalAlign="center"
+        app:layout_constraintTop_toBottomOf="@id/name_edit_text" />
 
     <TextView
         android:id="@+id/author_text_view"
@@ -65,7 +77,19 @@
         android:hint="Enter Author Name"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/name_edit_text" />
+        app:layout_constraintTop_toBottomOf="@id/name_edit_text"
+        android:maxLines="1"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/invalidAuthorTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Invalid Author Entered"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_error"
+        app:flow_verticalAlign="center"
+        app:layout_constraintTop_toBottomOf="@id/author_edit_text" />
 
     <TextView
         android:id="@+id/description_text_view"
@@ -77,6 +101,17 @@
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/author_text_view" />
+
+    <TextView
+        android:id="@+id/invalidDescriptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="Invalid Description"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_error"
+        app:flow_verticalAlign="center"
         app:layout_constraintTop_toBottomOf="@id/author_text_view" />
 
     <EditText
